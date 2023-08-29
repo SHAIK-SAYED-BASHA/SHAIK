@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        nav {
+            width: 100vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color: rgb(13, 13, 82);
+            position: relative;
+            position: fixed;
+            top: 0%;
+        }
+
+        .left {
+            color: rgb(62, 211, 211);
+            font-size: 1.5rem;
+            font-weight: bolder;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            margin: 0px 20px;
+        }
+
+        nav ul li a {
+            color: rgb(191, 91, 91);
+            text-transform: capitalize;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: rgb(159, 159, 253);
+        }
+
+        body {
+            background-color: rgb(24, 219, 199);
+        }
+
+        form {
+            background-color: rgb(222, 133, 212);
+            margin-top: 100px;
+            width: 80vw;
+            margin: auto;
+            margin-top: 20vh;
+        }
+        input {
+            width: 77vw;
+            padding: 10px;
+            margin: 10px;
+        }
+        button{
+            width: 80vw;
+            padding: 10px;
+            font-size: large;
+            font-weight: bold;
+        }
+        h2{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                SHAIK SAYED BASHA PORTFOLIO
+            </div>
+
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="service.html" target="_blank  ">SERVICES</a></li>
+                    <li><a href="project.html" target="_blank">PROJECTS</a></li>
+                    <li><a href="contact.html" target="_blank">CONTACT ME</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <br><br><br><br>
+    <form action="post">
+        <h2>FULL NAME</h2><input type="text" placeholder="enter your full name" required>
+        <h2>MOBILE</h2><input type="text" name="" id="" placeholder="enter your mobile number" required>
+        <h2>GMAIL</h2><input type="text" name="" id="" placeholder="enter your gmail id" required>
+        <button type="submit">SUBMIT</button>
+    </form>
+</body>
+
+</html>
